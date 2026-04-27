@@ -18,5 +18,8 @@ class Solution:
                 if indeg[neig]==0:
                     q.append(neig)
         return c!=V
+    
+    
+    
                 
        
