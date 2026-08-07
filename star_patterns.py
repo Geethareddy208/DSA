@@ -37,3 +37,38 @@ for i in range(1,n+1):
         else:
             print(" ",end=" ")
     print()'''
+
+#rhombus star pattern
+'''n=4
+for i in range(1,n+1):
+    for j in range(i-1):
+        print(" ",end="")
+    for j in range(n-i+1):
+        print("*",end="")
+    print()'''
+
+#inverted rhombus star pattern
+'''n=4
+for i in range(1,n+1):
+    for j in range(n-i+1):
+        print("*",end="")
+    print()'''
+
+#pyramid star pattern
+'''n=4
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    for j in range(2*i-1):
+        print("*",end="")
+    print()'''
+
+
+#inverted pyramid star pattern
+'''n=4
+for i in range(1,n+1):
+    for j in range(i-1):
+        print(" ",end="")
+    for j in range(2*n-(2*i-1)):
+        print("*",end="")
+    print()'''
